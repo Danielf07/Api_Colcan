@@ -56,7 +56,7 @@ Esta es una API REST diseñada para gestionar la información de pacientes. Prop
 - **Método**: `GET`
 - **Descripción**: Recupera la información de un paciente específico.
 - **Parámetros**:
-  - **id (int): ID del paciente.
+  - id (int): ID del paciente.
 - **Respuesta Exitosa**:
   - **Código**: `200 OK`
   - **Contenido**: Objeto del paciente solicitado.
@@ -123,7 +123,7 @@ Esta es una API REST diseñada para gestionar la información de pacientes. Prop
 - **Método**: `PUT`
 - **Descripción**: Actualiza la información de un paciente existente.
 - **Parámetros**:
-  - **id (int): ID del paciente.
+  - id (int): ID del paciente.
 - **Cuerpo de la solicitud**:
   ```json
    {
@@ -165,7 +165,7 @@ Esta es una API REST diseñada para gestionar la información de pacientes. Prop
 - **Método**: `DELETE`
 - **Descripción**: Elimina un paciente de la base de datos.
 - **Parámetros**:
-  - **id (int): ID del paciente.
+  - id (int): ID del paciente.
 - **Cuerpo de la solicitud**:
   ```json
    {
