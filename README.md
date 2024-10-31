@@ -52,7 +52,7 @@ Esta es una API REST diseñada para gestionar la información de pacientes. Prop
 
 ### Obtener un paciente por ID
 
-- **URL**: `/api/pacientes/{id}`
+- **URL**: `/api/Pacientes/{id}`
 - **Método**: `GET`
 - **Descripción**: Recupera la información de un paciente específico.
 - **Parámetros**:
@@ -79,7 +79,7 @@ Esta es una API REST diseñada para gestionar la información de pacientes. Prop
 
 ### Crear un nuevo paciente
 
-- **URL**: `/api/pacientes`
+- **URL**: `/api/Pacientes`
 - **Método**: `POST`
 - **Descripción**: Agrega un nuevo paciente a la base de datos.
 - **Cuerpo de la solicitud**:
@@ -119,7 +119,7 @@ Esta es una API REST diseñada para gestionar la información de pacientes. Prop
 
 ### Actualizar información de un paciente
 
-- **URL**: `/api/pacientes/{id}`
+- **URL**: `/api/Pacientes/{id}`
 - **Método**: `PUT`
 - **Descripción**: Actualiza la información de un paciente existente.
 - **Parámetros**:
@@ -161,7 +161,7 @@ Esta es una API REST diseñada para gestionar la información de pacientes. Prop
 
 ### Eliminar un paciente
 
-- **URL**: `/api/pacientes/{id}`
+- **URL**: `/api/Pacientes/{id}`
 - **Método**: `DELETE`
 - **Descripción**: Elimina un paciente de la base de datos.
 - **Parámetros**:
